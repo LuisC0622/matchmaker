@@ -57,10 +57,26 @@
         <option value="2">Disagree</option>
         <option value="1">Strongly Disagree</option>
       </select>
-
+      <br></br>
+    
       <p>id="compatibility"</p>
     <script>
-      
+      console.long("Starting Matchmaker...");
+      function CaculateCompatibility() {
+        console.log("CalculateCompatibility()")
+        let question1Response = document.getElementById('q1').selectedoptions[0].value;
+        let question1Response = document.getElementById('q2').selectedoptions[0].value;
+        let question1Response = document.getElementById('q3').selectedoptions[0].value;
+        let question1Response = document.getElementById('q4').selectedoptions[0].value;
+        let question1Response = document.getElementById('q5').selectedoptions[0].value;
+
+        concole.log("Question 1 Aswers:")
+        console.log(document.getElemetById('q1').selectedOptions[0].text)
+        console.log(document.getElemetById('q1').selectedOptions[0].value)
+        console.log(question1Response)
+  
+        
+        document.log(question1Respoonse)
     </script>
   </body>
 </html>
